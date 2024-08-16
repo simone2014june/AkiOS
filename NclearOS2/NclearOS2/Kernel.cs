@@ -67,8 +67,8 @@ namespace NclearOS2
                 //Console.CursorVisible = false;
                 Console.CursorLeft = 35;
                 Console.CursorTop = 11;
-                Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("NclearOS");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("AkiOS");
                 Console.CursorLeft = 0;
                 Console.CursorTop = Console.WindowHeight - 1;
                 TextMode.Run();
