@@ -78,7 +78,7 @@ namespace NclearOS2
                 Console.ResetColor();
                 if (err != "OK") { Console.WriteLine("Failed to initialize GUI\n" + err); }
 
-                Console.Write("\nESC - Shutdown System\nEnter - Start System Normally\nQ - GUI Safe Mode\nC - Console (Text) Mode\n\nSelect option: ");
+                Console.Write("\nESC - Power Off\nEnter - Start System Normally\nQ - GUI Safe Mode\nC - Console (Text) Mode\n\nSelect option: ");
                 try
                 {
                     ConsoleKeyInfo cki = Console.ReadKey();
